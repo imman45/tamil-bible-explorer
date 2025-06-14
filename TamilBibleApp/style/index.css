@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  /* margin: 0; */
+  font-family: Arial;
+  font-size: 17px;
+  overflow: hidden;
+}
+
+#myVideo {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  scrollbar-width: none;
+  /* width: 380px;
+  height: 210px; */
+  width: 1657px;
+  height: 933px;
+  transform: translate(-50%, -50%);
+  /* object-fit: none; Ensures the full video is shown without zooming */
+}
+
+.verse-box {
+  overflow: hidden;
+  position: fixed;
+  width: 80%;
+  height: 100%;
+  line-height: 1.9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #f1f1f1;
+  font-size: 30px;
+  font-weight: bold;
+  font-style: normal;
+  text-align: center;
+  padding: 20px;
+}
